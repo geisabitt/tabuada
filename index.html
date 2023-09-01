@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gerador de tabuada</h1>
+      <form id="tabuada-form">
+        <div id="inputs-container">
+          <div class="input-row">
+            <input
+              type="number"
+              class="number-input"
+              placeholder="Insira um número"
+              required
+            />
+            <button type="button" class="-">-</button>
+          </div>
+        </div>
+        <button type="button" id="add-button">Adicionar número</button>
+        <button type="submit">Calcular</button>
+      </form>
+    </div>
+    <div id="tabuada-results"></div>
+  </body>
+</html>
